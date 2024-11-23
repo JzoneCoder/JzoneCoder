@@ -853,16 +853,26 @@ video {
 
 .loader {
   position: fixed;
+  top: 0; 
+  left: 0;
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 999999;
-  background-color: var(--white);
+  background-color: black;
+  
 }
 
 .loader img {
-  width: 20rem;
-  height: 20rem;
+  width: 50%;
+  height: 80%;
+}
+
+@media (max-width: 768px) {
+  .loader img {
+    max-width: 100vh; 
+    height: 30vh;
+  }
 }
