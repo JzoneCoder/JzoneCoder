@@ -873,6 +873,6 @@ video {
 @media (max-width: 768px) {
   .loader img {
     max-width: 100vh; 
-    height: 30vh;
+    height: 25vh;
   }
 }
